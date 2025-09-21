@@ -5,7 +5,7 @@ Short description of the game and its genre.
 
 ## Project Structure
 - **assets/** → Art, audio, fonts, shaders
-- **src/** → Scripts and game logic
+- **scr/** → Scripts and game logic
 - **scenes/** → Main game scenes
 - **config/** → Settings and translations
 - **docs/** → Notes and changelog
