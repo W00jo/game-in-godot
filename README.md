@@ -5,10 +5,10 @@ Short description of the game and its genre.
 
 ## Project Structure
 - **assets/** → Art, audio, fonts, shaders
-- **scr/** → Scripts and game logic
-- **scenes/** → Main game scenes
 - **config/** → Settings and translations
 - **docs/** → Notes and changelog
+- **scr/** → Scripts and game logic
+- **scenes/** → Main game scenes
 
 ## How to Run
 1. Open `project.godot` in Godot.
