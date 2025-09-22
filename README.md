@@ -1,9 +1,11 @@
 # Game Title
 
 ## Overview
+
 Short description of the game and its genre.
 
 ## Project Structure
+
 - **assets/** → Art, audio, fonts, shaders
 - **config/** → Settings and translations
 - **docs/** → Notes and changelog
@@ -11,10 +13,12 @@ Short description of the game and its genre.
 - **scenes/** → Main game scenes
 
 ## How to Run
+
 1. Open `project.godot` in Godot.
 2. Run `Main.tscn`.
 
 ## Conventions
+
 | Type | Convention | Info |
 | --- | --- | --- |
 | File names | snake_case | yaml_parsed.gd |
@@ -28,7 +32,8 @@ Short description of the game and its genre.
 | enum members | CONSTANT_CASE |  |
 
 ## Code Order
-```
+
+```text
 01. tool
 02. class_name
 03. extends
@@ -50,4 +55,5 @@ Short description of the game and its genre.
 ```
 
 ## Credits
+
 List any free/paid assets, tools, or contributors.
