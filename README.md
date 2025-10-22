@@ -14,46 +14,55 @@ Short description of the game and its genre.
 
 ## How to Run
 
-1. Open `project.godot` in Godot.
-2. Run `Main.tscn`.
+1. Create a `project` in Godot.
 
 ## Conventions
 
-| Type | Convention | Info |
+These naming conventions follow the Godot Engine style. Breaking these will make your code clash with the built-in naming conventions, leading to inconsistent code. As a summary table:
+
+| Type | Convention | Example |
 | --- | --- | --- |
-| File names | snake_case | yaml_parsed.gd |
-| class_name | PascalCase | YAMLParser |
-| Node names | PascalCase |  |
-| Functions |	snake_case	|  |
-| Variables	| snake_case |  |
-| Signals	| snake_case | always in past tense "door_opened" |
-| Constants	| CONSTANT_CASE	|  |
-| enum names	| PascalCase	|  |
-| enum members | CONSTANT_CASE |  |
+| File names | snake_case | `yaml_parsed.gd` |
+| class_name | PascalCase | `class_name YAMLParser` |
+| Node names | PascalCase | `Camera3D`, `Player` |
+| Functions | snake_case | `func load_level():` |
+| Variables | snake_case | `var particle_effect` |
+| Signals | snake_case | always in past tense `signal door_opened` |
+| Constants | CONSTANT_CASE | `const MAX_SPEED = 200` |
+| enum names | PascalCase | `enum Element` |
+| enum members | CONSTANT_CASE | `{EARTH, WATER, AIR, FIRE}` |
 
 ## Code Order
 
-```text
-01. tool
+```html
+01. @tool, @icon, @static_unload
 02. class_name
 03. extends
-04. # docstring
+04. ## doc comment
 
 05. signals
 06. enums
 07. constants
-08. exported variables
-09. public variables
-10. private variables
-11. onready variables
+08. static variables
+09. @export variables
+10. remaining regular variables
+11. @onready variables
 
-12. optional built-in virtual _init method
-13. built-in virtual _ready method
-14. remaining built-in virtual methods
-15. public methods
-16. private methods
+12. _static_init()
+13. remaining static methods
+14. overridden built-in virtual methods:
+ 1. _init()
+ 2. _enter_tree()
+ 3. _ready()
+ 4. _process()
+ 5. _physics_process()
+ 6. remaining virtual methods
+15. overridden custom methods
+16. remaining methods
+17. subclasses
 ```
 
 ## Credits
 
 List any free/paid assets, tools, or contributors.
+*Summarized from Docs*.
