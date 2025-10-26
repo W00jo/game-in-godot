@@ -4,19 +4,18 @@
 
 Short description of the game and its genre.
 
-## Project Structure
+## Project structure
 
 - **assets/** → Art, audio, fonts, shaders
 - **config/** → Settings and translations
 - **docs/** → Notes and changelog
-- **scenes/** → Main game scenes
-   - each scene should have it's own folder with towarzyszący script
+- **scenes/** → Main game scenes and their respective `scripts`
 
-## How to Run
+## How to run
 
-1. Create a `project` in Godot.
+Create a `project` in Godot.
 
-## Conventions
+## Naming conventions
 
 These naming conventions follow the Godot Engine style. Breaking these will make your code clash with the built-in naming conventions, leading to inconsistent code. As a summary table:
 
@@ -32,9 +31,9 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 | enum names | PascalCase | `enum Element` |
 | enum members | CONSTANT_CASE | `{EARTH, WATER, AIR, FIRE}` |
 
-## Code Order
+## Code order
 
-```html
+```markdown
 01. @tool, @icon, @static_unload
 02. class_name
 03. extends
@@ -65,4 +64,5 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 ## Credits
 
 List any free/paid assets, tools, or contributors.
+
 *Summarized from Godot Docs*.
