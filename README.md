@@ -9,12 +9,11 @@ Short description of the game and its genre.
 - **assets/** → Art, audio, fonts, shaders
 - **config/** → Settings and translations
 - **docs/** → Notes and changelog
-- **scenes/** → Main game scenes
-   - each scene should have it's own folder with towarzyszący script
+- **scenes/** → Main game scenes and their respective `scripts`
 
 ## How to run
 
-1. Create a `project` in Godot.
+Create a `project` in Godot.
 
 ## Naming conventions
 
@@ -34,7 +33,7 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 
 ## Code order
 
-```html
+```markdown
 01. @tool, @icon, @static_unload
 02. class_name
 03. extends
@@ -65,6 +64,5 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 ## Credits
 
 List any free/paid assets, tools, or contributors.
-*Summarized from Godot Docs*.
 
 *Summarized from Godot Docs*.
