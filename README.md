@@ -1,4 +1,4 @@
-# Game Title
+# Game title
 
 ## Overview
 
@@ -33,7 +33,7 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 
 ## Code order
 
-```markdown
+```gdscript
 01. @tool, @icon, @static_unload
 02. class_name
 03. extends
