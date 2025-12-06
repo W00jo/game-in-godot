@@ -65,4 +65,4 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 
 List any free/paid assets, tools, or contributors.
 
-*Summarized from Godot Docs*.
+*Summarised from Godot Docs*.
