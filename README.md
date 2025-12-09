@@ -6,10 +6,11 @@ Short description of the game and its genre.
 
 ## Project structure
 
-- **assets/** → Art, audio, fonts, shaders
-- **config/** → Settings and translations
-- **docs/** → Notes and changelog
-- **scenes/** → Main game scenes and their respective `scripts`
+res://
+├── **assets/** → Art, audio, fonts, shaders
+├── **config/** → Settings and translations
+├── **docs/** → Notes and changelog
+└── **src/** → Game scenes and their respective `scripts`
 
 ## How to run
 
@@ -21,7 +22,7 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 
 | Type | Convention | Example |
 | --- | --- | --- |
-| File names | snake_case | `yaml_parsed.gd` |
+| File and folder names | snake_case | `yaml_parsed.gd` |
 | class_name | PascalCase | `class_name YAMLParser` |
 | Node names | PascalCase | `Camera3D`, `Player` |
 | Functions | snake_case | `func load_level():` |
