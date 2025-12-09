@@ -7,10 +7,10 @@ Short description of the game and its genre.
 ## Project structure
 
 res://
-├── **assets/** → Art, audio, fonts, shaders
-├── **config/** → Settings and translations
-├── **docs/** → Notes and changelog
-└── **src/** → Game scenes and their respective `scripts`
+<br/>├── **assets/** → Art, audio, fonts, shaders
+<br/>├── **config/** → Settings and translations
+<br/>├── **docs/** → Notes and changelog
+<br/>└── **src/** → Game scenes and their respective `scripts`
 
 ## How to run
 
