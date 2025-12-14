@@ -38,7 +38,7 @@ A brief description of the game. What is the player doing? What is the goal?
 
 ## 3. Gameplay
 
-### Core Loop
+### Core loop
 
 The cycle the player repeats minute-to-minute.
 
@@ -52,20 +52,20 @@ graph TD
     D --> A
 ```
 
-### Core Systems
+### Core systems (and mechanics)
 
   - `Movement`: [e.g., Double jump, dash, wall-climb]
   - `Combat`: [e.g., Turn-based, real-time, projectile logic]
   - `Progression`: [e.g., Skill trees, unlocking levels]
 
-## 4. Design & Aesthetics
+## 4. Design & aesthetics
 
 ### UI / UX
 
   - **HUD:** [What is on screen? Health bar? Ammo?]
   - **Interfaces:** [Diagetic or not]
 
-### Video / Visuals
+### Video/Visuals
 
   - **Art style:** [e.g., Low-poly, Pixel art 16-bit]
   - **Perspective:** [e.g., Top-down, First-person]
@@ -77,7 +77,9 @@ graph TD
 
 ## 5. Narrative & world(building)
 
-### Main Theme
+### Narration type
+
+### Main theme
 
 What is the "soul" of the game? (e.g., "Family," "Hopecore")
 
@@ -105,3 +107,4 @@ What is the "soul" of the game? (e.g., "Family," "Hopecore")
   - Use Mermaid diagrams, like in [this section](#core-loop), for logic flows.
   - **Kill your darlings:** If a feature isn't fun in the prototype, move it to [here](#6-notes-andor-random-ideas).
   - **Update if you need.** Design might change after every playtest.
+
