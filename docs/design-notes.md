@@ -9,34 +9,37 @@ Made out of need and lack for a handy, short but descriptive source of info on a
 ---
 
 ## 📑 Table of Contents
-1. [Working title](#1-working--title)
-2. [Overview & Pitch](#2-overview--pitch)
-3. [Gameplay](#3-gameplay)
-4. [Design & Aesthetics](#4-design--aesthetics)
-5. [Narrative & World](#5-narrative--worldbuilding)
-6. [Notes & Ideas](#6-notes-andor-random-ideas)
-7. [Good Practices](#good-practices)
+
+1. [[#Working title]]
+2. [[#Overview & pitch]]
+3. [[#Gameplay]]
+4. [[#Design & aesthetics]]
+5. [[#Narrative & world(building)]]
+6. [[#Notes and/or random ideas]]
+7. [[#Good Practices]]
 
 ---
 
-## 1. Working title
+## Working title
 
-## 2. Overview & pitch
+## Overview & pitch
 
-### The Pitch
+### Pitch
 
-**One Sentence:** [Insert a catchy "elevator pitch" here. e.g., "Mario meets Dark Souls."]
+**One sentence:** [Insert a catchy "elevator pitch" here. e.g., "Mario meets Dark Souls."]
 
 ### Summary
 
 A brief description of the game. What is the player doing? What is the goal?
 
-### Target Audience
-- **Demographics:** [e.g., Train enthusiasts]
-- **Genre/tags:** [e.g., Metroidvania, FPS, Cozy Sim]
-- **Comparable titles:** [Game A], [Game B]
+### Tech details
 
-## 3. Gameplay
+- **Demographics:** [e.g., Train enthusiasts]
+- **Genre/tags:** [e.g., Metroidvania, FPS, Cosy]
+- **Engine:** [e.g., Godot]
+- **Comparable titles / inspirations:** [e.g., Blackthorne (1994)]
+
+## Gameplay
 
 ### Core loop
 
@@ -58,14 +61,14 @@ graph TD
   - `Combat`: [e.g., Turn-based, real-time, projectile logic]
   - `Progression`: [e.g., Skill trees, unlocking levels]
 
-## 4. Design & aesthetics
+## Design & aesthetics
 
 ### UI / UX
 
   - **HUD:** [What is on screen? Health bar? Ammo?]
   - **Interfaces:** [Diagetic or not]
 
-### Video/Visuals
+### Video / Visuals
 
   - **Art style:** [e.g., Low-poly, Pixel art 16-bit]
   - **Perspective:** [e.g., Top-down, First-person]
@@ -75,11 +78,9 @@ graph TD
   - **Music:** [Genre, adaptive music layers]
   - **SFX:** [Key sound effects needed, ambient nature]
 
-## 5. Narrative & world(building)
+## Narrative & world(building)
 
-### Narration type
-
-### Main theme
+### Main Theme
 
 What is the "soul" of the game? (e.g., "Family," "Hopecore")
 
@@ -89,7 +90,7 @@ What is the "soul" of the game? (e.g., "Family," "Hopecore")
   - **Lore:** [Brief history or rules of the world]
   - **Characters:** [Protagonist motivation, antagonist goal, is there supporting cast?]
 
-## 6. Notes and/or random ideas
+## Notes and/or random ideas
 
 *Ideas that are cool but not yet verified or implemented. Keep them here so they don't clutter the main design.*
 
@@ -104,7 +105,6 @@ What is the "soul" of the game? (e.g., "Family," "Hopecore")
 ### Guidelines
 
   - **Don't get burned out!** Writting a long doc is tiring, sometimes prevents you from the core fun of the game dev!
-  - Use Mermaid diagrams, like in [this section](#core-loop), for logic flows.
-  - **Kill your darlings:** If a feature isn't fun in the prototype, move it to [here](#6-notes-andor-random-ideas).
-  - **Update if you need.** Design might change after every playtest.
-
+  - Use Mermaid diagrams, like in [[#Core loop]], for logic flows.
+  - **Kill your darlings.** If a feature isn't fun in the prototype, move it to [[#Notes and/or random ideas]].
+  - **Update if you need.** Design might change after every playtest (and that's totally ok).
