@@ -22,8 +22,8 @@ These naming conventions follow the Godot Engine style. Breaking these will make
 
 | Type | Convention | Example |
 | --- | --- | --- |
-| File and folder names | snake_case | `yaml_parsed.gd` |
-| class_name | PascalCase | `class_name YAMLParser` |
+| File and folder names | snake_case | `game_manager.gd`, `enemy_sprite.png`, `` |
+| class_name | PascalCase | `class_name Control` |
 | Node names | PascalCase | `Camera3D`, `Player` |
 | Functions | snake_case | `func load_level():` |
 | Variables | snake_case | `var particle_effect` |
